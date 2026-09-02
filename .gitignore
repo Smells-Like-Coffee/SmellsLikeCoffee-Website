@@ -1,0 +1,13 @@
+# Secrets and certificate material must never be committed.
+.env
+.env.*
+*.key
+*.pem
+*.csr
+*.crt
+*.cer
+*.pfx
+*.p12
+node_modules/
+.DS_Store
+Thumbs.db
